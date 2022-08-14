@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D30E36F28A91F5E00B4A89A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D30E36E28A91F5E00B4A89A /* Extensions.swift */; };
+		4D30E37028A91F5E00B4A89A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D30E36E28A91F5E00B4A89A /* Extensions.swift */; };
+		4D99887328A911A700B5F4F0 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99886328A911A600B5F4F0 /* App.swift */; };
+		4D99887428A911A700B5F4F0 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99886328A911A600B5F4F0 /* App.swift */; };
+		4D99887528A911A700B5F4F0 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99886428A911A600B5F4F0 /* AppView.swift */; };
+		4D99887628A911A700B5F4F0 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99886428A911A600B5F4F0 /* AppView.swift */; };
+		4D99887728A911A700B5F4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D99886528A911A700B5F4F0 /* Assets.xcassets */; };
+		4D99887828A911A700B5F4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D99886528A911A700B5F4F0 /* Assets.xcassets */; };
+		4D99888328A9120700B5F4F0 /* GradientShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99888228A9120700B5F4F0 /* GradientShader.swift */; };
+		4D99888428A9120700B5F4F0 /* GradientShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99888228A9120700B5F4F0 /* GradientShader.swift */; };
+		4D99888628A9123100B5F4F0 /* Gradient.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4D99888528A9123100B5F4F0 /* Gradient.metal */; };
+		4D99888728A9123100B5F4F0 /* Gradient.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4D99888528A9123100B5F4F0 /* Gradient.metal */; };
+		4D99888C28A912AA00B5F4F0 /* GradientTextureShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99888B28A912AA00B5F4F0 /* GradientTextureShader.swift */; };
+		4D99888D28A912AA00B5F4F0 /* GradientTextureShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99888B28A912AA00B5F4F0 /* GradientTextureShader.swift */; };
+		4D99889028A916B000B5F4F0 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99888F28A916B000B5F4F0 /* Renderer.swift */; };
+		4D99889128A916B000B5F4F0 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99888F28A916B000B5F4F0 /* Renderer.swift */; };
+		4D99889328A9192800B5F4F0 /* RenderTexture.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4D99889228A9192800B5F4F0 /* RenderTexture.metal */; };
+		4D99889428A9192800B5F4F0 /* RenderTexture.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4D99889228A9192800B5F4F0 /* RenderTexture.metal */; };
+		4D99889628A919D100B5F4F0 /* RenderTextureShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99889528A919D100B5F4F0 /* RenderTextureShader.swift */; };
+		4D99889728A919D100B5F4F0 /* RenderTextureShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99889528A919D100B5F4F0 /* RenderTextureShader.swift */; };
+		4D99889928A91B3200B5F4F0 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99889828A91B3200B5F4F0 /* Gradient.swift */; };
+		4D99889A28A91B3200B5F4F0 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99889828A91B3200B5F4F0 /* Gradient.swift */; };
+		4D99889C28A91D2700B5F4F0 /* MetalViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99889B28A91D2700B5F4F0 /* MetalViewContainer.swift */; };
+		4D99889D28A91D2700B5F4F0 /* MetalViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99889B28A91D2700B5F4F0 /* MetalViewContainer.swift */; };
+		4D99889F28A91D3200B5F4F0 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99889E28A91D3200B5F4F0 /* MetalView.swift */; };
+		4D9988A028A91D3200B5F4F0 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99889E28A91D3200B5F4F0 /* MetalView.swift */; };
+		4D9988A228A91E9F00B5F4F0 /* GradientBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9988A128A91E9F00B5F4F0 /* GradientBuilderView.swift */; };
+		4D9988A328A91E9F00B5F4F0 /* GradientBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9988A128A91E9F00B5F4F0 /* GradientBuilderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D30E36E28A91F5E00B4A89A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4D99886328A911A600B5F4F0 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		4D99886428A911A600B5F4F0 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		4D99886528A911A700B5F4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D99886A28A911A700B5F4F0 /* GradientShader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientShader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D99887028A911A700B5F4F0 /* GradientShader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientShader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D99887228A911A700B5F4F0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4D99888228A9120700B5F4F0 /* GradientShader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientShader.swift; sourceTree = "<group>"; };
+		4D99888528A9123100B5F4F0 /* Gradient.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Gradient.metal; sourceTree = "<group>"; };
+		4D99888B28A912AA00B5F4F0 /* GradientTextureShader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientTextureShader.swift; sourceTree = "<group>"; };
+		4D99888F28A916B000B5F4F0 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		4D99889228A9192800B5F4F0 /* RenderTexture.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = RenderTexture.metal; sourceTree = "<group>"; };
+		4D99889528A919D100B5F4F0 /* RenderTextureShader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderTextureShader.swift; sourceTree = "<group>"; };
+		4D99889828A91B3200B5F4F0 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		4D99889B28A91D2700B5F4F0 /* MetalViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalViewContainer.swift; sourceTree = "<group>"; };
+		4D99889E28A91D3200B5F4F0 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		4D9988A128A91E9F00B5F4F0 /* GradientBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBuilderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D99886728A911A700B5F4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D99886D28A911A700B5F4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D99885D28A911A600B5F4F0 = {
+			isa = PBXGroup;
+			children = (
+				4D99886228A911A600B5F4F0 /* Shared */,
+				4D99887128A911A700B5F4F0 /* macOS */,
+				4D99886B28A911A700B5F4F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D99886228A911A600B5F4F0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4D99886328A911A600B5F4F0 /* App.swift */,
+				4D99889828A91B3200B5F4F0 /* Gradient.swift */,
+				4D30E36E28A91F5E00B4A89A /* Extensions.swift */,
+				4D99888E28A9169300B5F4F0 /* Views */,
+				4D99888128A911F600B5F4F0 /* Renderer */,
+				4D99886528A911A700B5F4F0 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4D99886B28A911A700B5F4F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D99886A28A911A700B5F4F0 /* GradientShader.app */,
+				4D99887028A911A700B5F4F0 /* GradientShader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D99887128A911A700B5F4F0 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				4D99887228A911A700B5F4F0 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		4D99888128A911F600B5F4F0 /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				4D99888F28A916B000B5F4F0 /* Renderer.swift */,
+				4D99888B28A912AA00B5F4F0 /* GradientTextureShader.swift */,
+				4D99888228A9120700B5F4F0 /* GradientShader.swift */,
+				4D99888528A9123100B5F4F0 /* Gradient.metal */,
+				4D99889528A919D100B5F4F0 /* RenderTextureShader.swift */,
+				4D99889228A9192800B5F4F0 /* RenderTexture.metal */,
+			);
+			path = Renderer;
+			sourceTree = "<group>";
+		};
+		4D99888E28A9169300B5F4F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D99886428A911A600B5F4F0 /* AppView.swift */,
+				4D99889B28A91D2700B5F4F0 /* MetalViewContainer.swift */,
+				4D99889E28A91D3200B5F4F0 /* MetalView.swift */,
+				4D9988A128A91E9F00B5F4F0 /* GradientBuilderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D99886928A911A700B5F4F0 /* GradientShader (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D99887B28A911A700B5F4F0 /* Build configuration list for PBXNativeTarget "GradientShader (iOS)" */;
+			buildPhases = (
+				4D99886628A911A700B5F4F0 /* Sources */,
+				4D99886728A911A700B5F4F0 /* Frameworks */,
+				4D99886828A911A700B5F4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GradientShader (iOS)";
+			productName = "GradientShader (iOS)";
+			productReference = 4D99886A28A911A700B5F4F0 /* GradientShader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D99886F28A911A700B5F4F0 /* GradientShader (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D99887E28A911A700B5F4F0 /* Build configuration list for PBXNativeTarget "GradientShader (macOS)" */;
+			buildPhases = (
+				4D99886C28A911A700B5F4F0 /* Sources */,
+				4D99886D28A911A700B5F4F0 /* Frameworks */,
+				4D99886E28A911A700B5F4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GradientShader (macOS)";
+			productName = "GradientShader (macOS)";
+			productReference = 4D99887028A911A700B5F4F0 /* GradientShader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D99885E28A911A600B5F4F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4D99886928A911A700B5F4F0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					4D99886F28A911A700B5F4F0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4D99886128A911A600B5F4F0 /* Build configuration list for PBXProject "GradientShader" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D99885D28A911A600B5F4F0;
+			productRefGroup = 4D99886B28A911A700B5F4F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D99886928A911A700B5F4F0 /* GradientShader (iOS) */,
+				4D99886F28A911A700B5F4F0 /* GradientShader (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D99886828A911A700B5F4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D99887728A911A700B5F4F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D99886E28A911A700B5F4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D99887828A911A700B5F4F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D99886628A911A700B5F4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D99888328A9120700B5F4F0 /* GradientShader.swift in Sources */,
+				4D99889928A91B3200B5F4F0 /* Gradient.swift in Sources */,
+				4D99889C28A91D2700B5F4F0 /* MetalViewContainer.swift in Sources */,
+				4D99889328A9192800B5F4F0 /* RenderTexture.metal in Sources */,
+				4D9988A228A91E9F00B5F4F0 /* GradientBuilderView.swift in Sources */,
+				4D99888628A9123100B5F4F0 /* Gradient.metal in Sources */,
+				4D99888C28A912AA00B5F4F0 /* GradientTextureShader.swift in Sources */,
+				4D99889F28A91D3200B5F4F0 /* MetalView.swift in Sources */,
+				4D30E36F28A91F5E00B4A89A /* Extensions.swift in Sources */,
+				4D99889628A919D100B5F4F0 /* RenderTextureShader.swift in Sources */,
+				4D99887528A911A700B5F4F0 /* AppView.swift in Sources */,
+				4D99889028A916B000B5F4F0 /* Renderer.swift in Sources */,
+				4D99887328A911A700B5F4F0 /* App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D99886C28A911A700B5F4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D99888428A9120700B5F4F0 /* GradientShader.swift in Sources */,
+				4D99889A28A91B3200B5F4F0 /* Gradient.swift in Sources */,
+				4D99889D28A91D2700B5F4F0 /* MetalViewContainer.swift in Sources */,
+				4D99889428A9192800B5F4F0 /* RenderTexture.metal in Sources */,
+				4D9988A328A91E9F00B5F4F0 /* GradientBuilderView.swift in Sources */,
+				4D99888728A9123100B5F4F0 /* Gradient.metal in Sources */,
+				4D99888D28A912AA00B5F4F0 /* GradientTextureShader.swift in Sources */,
+				4D9988A028A91D3200B5F4F0 /* MetalView.swift in Sources */,
+				4D30E37028A91F5E00B4A89A /* Extensions.swift in Sources */,
+				4D99889728A919D100B5F4F0 /* RenderTextureShader.swift in Sources */,
+				4D99887628A911A700B5F4F0 /* AppView.swift in Sources */,
+				4D99889128A916B000B5F4F0 /* Renderer.swift in Sources */,
+				4D99887428A911A700B5F4F0 /* App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D99887928A911A700B5F4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D99887A28A911A700B5F4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4D99887C28A911A700B5F4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtldoc.GradientShader;
+				PRODUCT_NAME = GradientShader;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D99887D28A911A700B5F4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtldoc.GradientShader;
+				PRODUCT_NAME = GradientShader;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D99887F28A911A700B5F4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtldoc.GradientShader;
+				PRODUCT_NAME = GradientShader;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4D99888028A911A700B5F4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtldoc.GradientShader;
+				PRODUCT_NAME = GradientShader;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D99886128A911A600B5F4F0 /* Build configuration list for PBXProject "GradientShader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D99887928A911A700B5F4F0 /* Debug */,
+				4D99887A28A911A700B5F4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D99887B28A911A700B5F4F0 /* Build configuration list for PBXNativeTarget "GradientShader (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D99887C28A911A700B5F4F0 /* Debug */,
+				4D99887D28A911A700B5F4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D99887E28A911A700B5F4F0 /* Build configuration list for PBXNativeTarget "GradientShader (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D99887F28A911A700B5F4F0 /* Debug */,
+				4D99888028A911A700B5F4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D99885E28A911A600B5F4F0 /* Project object */;
+}
